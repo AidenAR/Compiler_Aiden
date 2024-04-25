@@ -1,4 +1,4 @@
-# Compiler_WLP4
+# Compiler_Aiden
 A mini compiler for the WLP4 language
 
 WLP4 is a subset of C++ which stands for “Waterloo, Language, Plus, Pointers, Plus, Procedures”.
