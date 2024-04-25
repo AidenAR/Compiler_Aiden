@@ -23,3 +23,16 @@ The full set of semantic/type-inference rules can be found here, and the full se
 
 4) Code Generation
 The final part of the compilation process is code generation, and completing the process of translating WLP4 source code to MIPS assembly language. Basic features are supported including code generation for the main procedure, integer variables and constants, declarations, assignment, arithmetic, control flow, and printing, and additional support for pointers, other procedures, and dynamic memory allocation is also implemented.
+
+
+P1: MIPS and WLP4 Scanners
+MIPS Scanner 
+WLP4 Scanner
+
+P2: MIPS Assembler
+
+P3: WLP4 Parser
+
+P4: WLP4 Semantic Analyzer
+
+P5: WLP4-to-MIPS Code Generator
