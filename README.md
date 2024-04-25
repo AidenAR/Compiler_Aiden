@@ -29,6 +29,30 @@ P1: MIPS and WLP4 Scanners
 MIPS Scanner 
 WLP4 Scanner
 
+Consider the following WLP4 program:
+
+int wain(int a, int b) {
+  return 241;
+}
+
+Result: 
+Scanning this program produces the following sequence of tokens:
+INT int
+WAIN wain
+LPAREN (
+INT int
+ID a
+COMMA ,
+INT int
+ID b
+RPAREN )
+LBRACE {
+RETURN return
+NUM 241
+SEMI ;
+RBRACE }
+
+
 P2: MIPS Assembler
 
 P3: WLP4 Parser
